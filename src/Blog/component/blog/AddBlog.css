@@ -1,0 +1,53 @@
+.addblog {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+
+.addblog .addblog1 {
+    border: 2px solid black;
+    width: 35%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-image: url(C:\Users\DELL\Downloads\logini.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 10px;
+}
+
+.addblog1 h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: blue;
+}
+
+.addblog1 input {
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.addblog1 #dis {
+    width: 80%;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.addblog1 button {
+    width: 25%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,148 @@
+/* .blogdetail {
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: gainsboro;
+
+}
+
+.blogdetail1{
+
+    height: 60vh;
+    width: 25%;
+    border: 1px solid black;
+    box-shadow: 4px 4px 10px;
+    margin-left: 550px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+.blogdetail1 img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.blogdetail1 button{
+    width: 30%;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.blogdetail1 h4{
+margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.blogdetail1 p{
+margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+#comm{
+    height: 60px;
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.comment{
+    width: 60%;
+    height: 20vh;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 280px;
+    display: flex;
+}
+.comment img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+}
+.comment .text{
+    margin-left: 30px;
+    margin-top: 20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blogDetail {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.blogCard {
+    width: 60%;
+    margin: auto;
+    background-color: #f0f0f0;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+#blogPicture {
+    height: 500px;
+    border-radius: 8px;
+}
+
+#addComment {
+    background-color: rgb(141, 244, 141);
+    cursor: pointer;
+    font-weight: bolder;
+    border: 1px solid rgb(141, 244, 141);
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+.comment {
+    width: 60%;
+    margin: auto;
+    background-color: #f0f0f0;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.comment .commentCard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    padding: 10px 10px;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+    box-shadow: 4px 4px 4px grey, -4px -4px 4px grey;
+    border-radius: 8px;
+}
+
+.comment .commentCard p {
+    font-size: 0.8rem;
+    color: yellow;
+}
+
+#commentUser {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

@@ -1,0 +1,48 @@
+.main {
+    border: 2px solid black;
+    height: 100vh;
+    width: 99%;
+    margin: auto;
+    background-color: blueviolet;
+
+}
+
+.signup {
+    border: 1px solid black;
+    height: 90vh;
+    width: 35%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    /* background-color: white; */
+    background-image: url(C:\Users\DELL\Downloads\logini.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 10px;
+
+}
+
+.signup h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.signup input {
+    height: 6vh;
+    width: 70%;
+    margin: auto;
+    margin-left: 60px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.signup button {
+    background-color: blueviolet;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-left: 200px;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+}
+
+.footer .blog-4 {
+    /* border: 2px solid black; */
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer .blog-4 .blog-4a {
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 20%;
+    margin-top: 50px;
+}

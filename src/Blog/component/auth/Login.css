@@ -1,0 +1,64 @@
+.Login{
+    border: 2px solid black;
+        height: 100vh;
+        width: 100%;
+        margin: auto;
+        background-color: blueviolet;
+}
+
+.login {
+    border: 2px solid black;
+    width: 35%;
+    height: 85vh;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-image: url(C:\Users\DELL\Downloads\logini.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 10px;
+    /* background-color: white; */
+}
+
+.login h1 {
+    text-align: center;
+    color: blueviolet;
+    margin-top: 70px;
+}
+
+.login input {
+    width: 80%;
+    margin-left: 5vh;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+
+.login h5 {
+    margin-left: 350px;
+    margin-top: -30px;
+}
+
+.login h4 {
+    margin-left: 230px;
+
+}
+
+.login p {
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.login button {
+    background-color: blueviolet;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-left: 210px;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
